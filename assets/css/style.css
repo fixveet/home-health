@@ -11,13 +11,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
 :root {
-	--color-primary: #21cdc0;
+	--color-primary: #f2437a;
 	--color-primary-07: rgba(46, 39, 157, 0.07);
 	--color-primary-10: rgba(46, 39, 157, 0.1);
 	--color-primary-20: rgba(46, 39, 157, 0.2);
 	--color-secondary: #499afa;
 	--color-secondary-10: rgba(73, 154, 250, 0.1);
-	--color-tertiary: #21cdc0;
+	--color-tertiary: #ee4b7f;
 	--color-fourth: #213360;
 	--color-heading: #0e204d;
 	--color-heading-07: rgba(14, 32, 77, 0.07);
