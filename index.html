@@ -8,7 +8,7 @@
       <title>MedCall | Home Health Service Bali</title>
 
       <!--====== Favicon Icon ======-->
-      <link rel="shortcut icon" href="assets/img/logo-2.png" type="img/png" />
+      <link rel="shortcut icon" href="assets/img/icons/l1.png" type="img/png" />
       <!--====== Animate Css ======-->
       <link rel="stylesheet" href="assets/css/animate.min.css" />
       <!--====== Bootstrap css ======-->
@@ -84,11 +84,11 @@
                 <li class="active">
                   <a href="index.html">Home</a>
                 </li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">Doctors</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#doctors-section">Doctors</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
               </ul>
             </nav>
             <ul class="extra-icons">
@@ -123,9 +123,9 @@
               <li class="active">
                 <a href="index.html">Home</a>
               </li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Shop</a></li>
-              <li><a href="#">Doctors</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#shop">Shop</a></li>
+              <li><a href="#doctors-section">Doctors</a></li>
               <li><a href="#">Gallery</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
@@ -140,7 +140,7 @@
     <!--====== End Header ======-->
 
     <!--====== Hero Slider Start ======-->
-    <section class="hero-slider hero-slider-two style-two">
+    <section id="hero" class="hero-slider hero-slider-two style-two">
       <div class="hero-slider-active">
         <div class="single-hero-slider">
           <div class="hero-slider-bg bg-size-cover" style="background-image: url(assets/img/hero-img/hero-slider-6.jpg)"></div>
@@ -213,7 +213,7 @@
     </section>
     <!--====== Features Section ENd ======-->
     <!--====== About Section Start ======-->
-    <section class="about-section section-gap">
+    <section id="about" class="about-section section-gap">
       <div class="container">
         <div class="row justify-content-center justify-content-lg-between align-items-center">
           <div class="col-lg-6 col-md-10">
@@ -244,9 +244,381 @@
       </div>
     </section>
     <!--====== About Section End ======-->
+    <!--====== Product Tab Section Start ======-->
+    <section id="shop" class="product-tab-section bg-color-grey section-gap">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-7 col-md-8">
+            <div class="section-heading text-center mb-70">
+              <span class="tagline color-tertiary">Pharmacy Products</span>
+              <h2 class="title">Our Popular Medical Products That We Provides</h2>
+            </div>
+          </div>
+          <div class="col-lg-10">
+            <div class="product-tab-nav mb-20">
+              <ul class="nav nav-tabs" id="productTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" data-toggle="tab" href="#cat-Infusion" role="tab">
+                    <span class="icon">
+                      <img src="./assets/img/icons/checkup-little.png" alt="" />
+                    </span>
+                    <span>Infusion</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#cat-Contraception" role="tab">
+                    <span class="icon">
+                      <img src="./assets/img/icons/contraceptive1.png" alt="" />
+                    </span>
+                    <span>Contraception</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#cat-MedCheck" role="tab">
+                    <span class="icon">
+                      <img src="./assets/img/icons/checkup-little.png" alt="" />
+                    </span>
+                    <span>Medical Check-Up</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="tab-content" id="productTabContent">
+              <div class="tab-pane fade show active" id="cat-Infusion" role="tabpanel">
+                <div class="row justify-content-center product-boxes">
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="product-box mt-30">
+                      <div class="thumbnail">
+                        <img src="assets/img/products/04.png" alt="Image" />
+                      </div>
+                      <div class="content">
+                        <h5 class="title">
+                          <a href="product-details.html">Infusion A</a>
+                        </h5>
+                        <span class="price">$29.87</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="product-box mt-30">
+                      <div class="thumbnail">
+                        <img src="assets/img/products/04.png" alt="Image" />
+                      </div>
+                      <div class="content">
+                        <h5 class="title">
+                          <a href="product-details.html">Infusion B</a>
+                        </h5>
+                        <span class="price">$29.87</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="product-box mt-30">
+                      <div class="thumbnail">
+                        <img src="assets/img/products/04.png" alt="Image" />
+                      </div>
+                      <div class="content">
+                        <h5 class="title">
+                          <a href="product-details.html">Infusion C</a>
+                        </h5>
+                        <span class="price">$29.87</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="product-box mt-30">
+                      <div class="thumbnail">
+                        <img src="assets/img/products/04.png" alt="Image" />
+                      </div>
+                      <div class="content">
+                        <h5 class="title">
+                          <a href="product-details.html">Infusion D</a>
+                        </h5>
+                        <span class="price">$29.87</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="product-box mt-30">
+                      <div class="thumbnail">
+                        <img src="assets/img/products/04.png" alt="Image" />
+                      </div>
+                      <div class="content">
+                        <h5 class="title">
+                          <a href="product-details.html">Infusion F</a>
+                        </h5>
+                        <span class="price">$29.87</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="product-box mt-30">
+                      <div class="thumbnail">
+                        <img src="assets/img/products/04.png" alt="Image" />
+                      </div>
+                      <div class="content">
+                        <h5 class="title">
+                          <a href="product-details.html">Infusion G</a>
+                        </h5>
+                        <span class="price">$29.87</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="product-box mt-30">
+                      <div class="thumbnail">
+                        <img src="assets/img/products/04.png" alt="Image" />
+                      </div>
+                      <div class="content">
+                        <h5 class="title">
+                          <a href="product-details.html">Infusion H</a>
+                        </h5>
+                        <span class="price">$29.87</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="product-box mt-30">
+                      <div class="thumbnail">
+                        <img src="assets/img/products/04.png" alt="Image" />
+                      </div>
+                      <div class="content">
+                        <h5 class="title">
+                          <a href="product-details.html">Infusion I</a>
+                        </h5>
+                        <span class="price">$29.87</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="cat-Contraception" role="tabpanel">
+                <div class="row justify-content-center product-boxes">
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="product-box mt-30">
+                      <div class="thumbnail">
+                        <img src="assets/img/products/04.png" alt="Image" />
+                      </div>
+                      <div class="content">
+                        <h5 class="title">
+                          <a href="product-details.html">Contraception A</a>
+                        </h5>
+                        <span class="price">$29.87</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="product-box mt-30">
+                      <div class="thumbnail">
+                        <img src="assets/img/products/04.png" alt="Image" />
+                      </div>
+                      <div class="content">
+                        <h5 class="title">
+                          <a href="product-details.html">Contraception B</a>
+                        </h5>
+                        <span class="price">$29.87</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="product-box mt-30">
+                      <div class="thumbnail">
+                        <img src="assets/img/products/04.png" alt="Image" />
+                      </div>
+                      <div class="content">
+                        <h5 class="title">
+                          <a href="product-details.html">Contraception C</a>
+                        </h5>
+                        <span class="price">$29.87</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="product-box mt-30">
+                      <div class="thumbnail">
+                        <img src="assets/img/products/04.png" alt="Image" />
+                      </div>
+                      <div class="content">
+                        <h5 class="title">
+                          <a href="product-details.html">Contraception D</a>
+                        </h5>
+                        <span class="price">$29.87</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="product-box mt-30">
+                      <div class="thumbnail">
+                        <img src="assets/img/products/04.png" alt="Image" />
+                      </div>
+                      <div class="content">
+                        <h5 class="title">
+                          <a href="product-details.html">Contraception E</a>
+                        </h5>
+                        <span class="price">$29.87</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="product-box mt-30">
+                      <div class="thumbnail">
+                        <img src="assets/img/products/04.png" alt="Image" />
+                      </div>
+                      <div class="content">
+                        <h5 class="title">
+                          <a href="product-details.html">Contraception F</a>
+                        </h5>
+                        <span class="price">$29.87</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="product-box mt-30">
+                      <div class="thumbnail">
+                        <img src="assets/img/products/04.png" alt="Image" />
+                      </div>
+                      <div class="content">
+                        <h5 class="title">
+                          <a href="product-details.html">Contraception G</a>
+                        </h5>
+                        <span class="price">$29.87</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="product-box mt-30">
+                      <div class="thumbnail">
+                        <img src="assets/img/products/04.png" alt="Image" />
+                      </div>
+                      <div class="content">
+                        <h5 class="title">
+                          <a href="product-details.html">Contraception H</a>
+                        </h5>
+                        <span class="price">$29.87</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="cat-MedCheck" role="tabpanel">
+                <div class="row justify-content-center product-boxes">
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="product-box mt-30">
+                      <div class="thumbnail">
+                        <img src="assets/img/products/04.png" alt="Image" />
+                      </div>
+                      <div class="content">
+                        <h5 class="title">
+                          <a href="product-details.html">Check A</a>
+                        </h5>
+                        <span class="price">$29.87</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="product-box mt-30">
+                      <div class="thumbnail">
+                        <img src="assets/img/products/04.png" alt="Image" />
+                      </div>
+                      <div class="content">
+                        <h5 class="title">
+                          <a href="product-details.html">Check B</a>
+                        </h5>
+                        <span class="price">$29.87</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="product-box mt-30">
+                      <div class="thumbnail">
+                        <img src="assets/img/products/04.png" alt="Image" />
+                      </div>
+                      <div class="content">
+                        <h5 class="title">
+                          <a href="product-details.html">Check C</a>
+                        </h5>
+                        <span class="price">$29.87</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="product-box mt-30">
+                      <div class="thumbnail">
+                        <img src="assets/img/products/04.png" alt="Image" />
+                      </div>
+                      <div class="content">
+                        <h5 class="title">
+                          <a href="product-details.html">SCheck D</a>
+                        </h5>
+                        <span class="price">$29.87</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="product-box mt-30">
+                      <div class="thumbnail">
+                        <img src="assets/img/products/04.png" alt="Image" />
+                      </div>
+                      <div class="content">
+                        <h5 class="title">
+                          <a href="product-details.html">Check E</a>
+                        </h5>
+                        <span class="price">$29.87</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="product-box mt-30">
+                      <div class="thumbnail">
+                        <img src="assets/img/products/04.png" alt="Image" />
+                      </div>
+                      <div class="content">
+                        <h5 class="title">
+                          <a href="product-details.html">Check F</a>
+                        </h5>
+                        <span class="price">$29.87</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="product-box mt-30">
+                      <div class="thumbnail">
+                        <img src="assets/img/products/04.png" alt="Image" />
+                      </div>
+                      <div class="content">
+                        <h5 class="title">
+                          <a href="product-details.html">Check G</a>
+                        </h5>
+                        <span class="price">$29.87</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="product-box mt-30">
+                      <div class="thumbnail">
+                        <img src="assets/img/products/04.png" alt="Image" />
+                      </div>
+                      <div class="content">
+                        <h5 class="title">
+                          <a href="product-details.html">Check H</a>
+                        </h5>
+                        <span class="price">$29.87</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--====== Product Tab Section End ======-->
     <!--====== Doctor Section Start ======-->
     <div class="doctors-with-counter">
-      <section class="doctors-section bg-color-grey polygon-pattern-2">
+      <section id="doctors-section" class="doctors-section bg-color-grey polygon-pattern-2">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-6">
@@ -313,6 +685,24 @@
       </section>
     </div>
     <!--====== Doctor Section End ======-->
+
+    <!--====== Back to Top Start ======-->
+    <a class="back-to-top" href="#">
+      <i class="far fa-angle-up"></i>
+    </a>
+    <!--====== Back to Top End ======-->
+
+    <!--====== Start Template Footer ======-->
+    <footer class="template-footer template-footer-white have-cta-boxes-two">
+      <div class="footer-inner bg-color-primary">
+        <div class="container">
+          <div class="copyright-area">
+            <p>© 2021 <a href="#">Seeva</a>. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--====== End Template Footer ======-->
 
     <!--====== Jquery ======-->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
